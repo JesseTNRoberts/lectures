@@ -65,6 +65,15 @@ AI4200:
     slides: AI4200/week11.1-slides.html
     notebook: AI4200/week11.1-notebook.ipynb
 
+  - week: 11
+    session: 2
+    date: 2026-11-19
+    title: Computational processes implemented with neural networks
+    topics: [GANs, self-play, deep Q-learning, diffusion, NeRF, differentiable rendering, differentiable memory, surrogate gradients]
+    slides: AI4200/week11.2-slides.html
+    notebook: AI4200/week11.2-notebook.ipynb
+    note: "Play the tic-tac-toe DQN: AI4200/week11.2-dqn-tictactoe.ipynb (QR code on the results slide)."
+
 HON4013:
   - week: 11
     title: What's inside the box
