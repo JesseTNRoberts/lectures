@@ -93,10 +93,18 @@ HON4013:
     slides: HON4013/future-of-labor-long-view-slides.html
     notebook: HON4013/future-of-labor-long-view-notebook.ipynb
 
-# Lectures outside any course (guest lectures, one-off talks). `week` only orders them here; the site
+# Lectures outside any course (guest lectures, invited talks; decks in misc/ or talks/). `week` only orders
+# them here (oldest first); the site
 # shows the date instead of a week number. The site's _teaching/MISC.md is this list's "course".
 MISC:
   - week: 1
+    title: How Generative AI Really Works
+    topics: [what AI is, large language models, next-token prediction]
+    slides: talks/how-generative-ai-really-works.html
+    notebook: talks/how-generative-ai-really-works.ipynb
+    note: Invited talk at Chattanooga State Community College, October 2026.
+
+  - week: 2
     date: 2026-11-19
     title: "Generative AI: Make something new"
     topics: [generative models, joint distributions, grammars, n-grams, autoencoders, variational autoencoders, KL divergence]
