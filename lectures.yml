@@ -92,3 +92,13 @@ HON4013:
     topics: [the hand weavers, how automation moves the bottleneck, why Britain automated first, falling birth rates, shrinking workforces, retirement age, who pays for retirees, automation in ageing countries]
     slides: HON4013/future-of-labor-long-view-slides.html
     notebook: HON4013/future-of-labor-long-view-notebook.ipynb
+
+# Lectures outside any course (guest lectures, one-off talks). `week` only orders them here; the site
+# shows the date instead of a week number. The site's _teaching/MISC.md is this list's "course".
+MISC:
+  - week: 1
+    date: 2026-11-19
+    title: "Generative AI: Make something new"
+    topics: [generative models, joint distributions, grammars, n-grams, autoencoders, variational autoencoders, KL divergence]
+    slides: misc/generative-ai-make-something-new-slides.html
+    note: Guest lecture. Two live class activities, a tour of generative systems from grammars to LLMs, then the VAE in depth.
