@@ -101,4 +101,5 @@ MISC:
     title: "Generative AI: Make something new"
     topics: [generative models, joint distributions, grammars, n-grams, autoencoders, variational autoencoders, KL divergence]
     slides: misc/generative-ai-make-something-new-slides.html
+    notebook: misc/generative-ai-make-something-new-notebook.ipynb
     note: Guest lecture. Two live class activities, a tour of generative systems from grammars to LLMs, then the VAE in depth.
