@@ -17,26 +17,26 @@ so Slidewright saves edits back here. Update it if a deck is renamed or moved.
 ## Adding a lecture
 
 1. Commit the deck (and notebook) to `<COURSE>/`.
-2. Add an entry to that course's list in `lectures.json`, for example
+2. Add an entry to that course's list in `lectures.yml` (copy one that's there), for example
 
-   ```json
-   {
-     "week": 12,
-     "session": 1,
-     "title": "Lecture title",
-     "topics": ["topic one", "topic two"],
-     "slides": "AI4200/week12.1-slides.html",
-     "notebook": "AI4200/week12.1-notebook.ipynb"
-   }
+   ```yaml
+   AI4200:
+     - week: 12
+       session: 1
+       title: Lecture title
+       topics: [topic one, topic two]
+       slides: AI4200/week12.1-slides.html
+       notebook: AI4200/week12.1-notebook.ipynb
    ```
 
    Optional fields are `date` (YYYY-MM-DD), `pdf`, `video`, `note`, `readings` (title, authors,
    year, venue, url), `demos` and `models`. The course id (`AI4200`) must match `course_id` in the
-   site's `_teaching/` file.
+   site's `_teaching/` file. Put quotes around a title or topic that contains a colon or `#`, or a
+   topic that contains a comma.
 
-The Teaching page and course pages read `lectures.json` in the browser, so the lecture shows up
+The Teaching page and course pages read `lectures.yml` in the browser, so the lecture shows up
 within a minute of the push. The site's next build also bakes it into the pages (for search engines
-and visitors without JavaScript). A broken `lectures.json` makes site builds fail until it's fixed,
-so keep it valid JSON.
+and visitors without JavaScript). A broken `lectures.yml` (usually bad indentation) makes site builds
+fail until it's fixed. The site that's already up stays up.
 
 Never create a `/lectures/` folder in the main site repo, it would collide with this site.
