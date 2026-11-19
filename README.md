@@ -9,7 +9,7 @@ in about a minute.
 | What | Where |
 | --- | --- |
 | Course lectures | `<COURSE>/<name>-slides.html` and `<COURSE>/<name>-notebook.ipynb` |
-| General talks | `talks/` |
+| General talks and guest lectures (no course) | `talks/` or `misc/`, listed under `MISC:` in `lectures.yml` (shown as Miscellaneous on the site) |
 
 Each deck carries `<meta name="slidewright-source" content="github:JesseTNRoberts/lectures@main:<path>">`
 so Slidewright saves edits back here. Update it if a deck is renamed or moved.
